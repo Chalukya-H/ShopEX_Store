@@ -1,8 +1,7 @@
-{
-  "homepage": "http://Chalukya-H.github.io/ShopEx",
+{   
   "name": "shopex",
   "version": "0.1.0",
-  "proxy": "http://localhost:3030/",
+  "proxy": "https://shopex-store.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
