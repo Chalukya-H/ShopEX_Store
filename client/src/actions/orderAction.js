@@ -83,7 +83,7 @@ export const addProductstoOrder = (formData , refresh) =>{
                   alert (response.data)
               } else {                  
                 dispatch(getProducttoCart())               
-                console.log()
+                
                 axios.post('/orders',formData,{  headers : {
                     'auth' : localStorage.getItem('token') 
                      }

@@ -11,7 +11,7 @@ class OrderSummary extends React.Component {
 
             if(this.props.orders.length ) {             
                 clearInterval(refersh)  
-                console.log(this.props.orders)               
+                               
             }
         },1000)
     }

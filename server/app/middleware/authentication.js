@@ -16,7 +16,7 @@ const authUser = (req,res,next) =>{
                 next()
             })
             .catch(err =>{
-                console.log('auth',err)
+                // console.log('auth',err)
                 res.json(err)
             })
         }

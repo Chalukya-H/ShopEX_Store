@@ -48,12 +48,12 @@ cartController.updateQuantity = (req,res) =>{
                 })
 
                 .catch(err =>{
-                    console.log(err)
+                    // console.log(err)
                     res.json(err)
                 }) 
             
          } else { 
-             console.log('No Less')
+              
              res.json ({message : 'Quantity can not be less than 1'})
          }
     }) 
@@ -77,7 +77,7 @@ cartController.deleteAll = (req,res) =>{
        
     Cart.remove({ customerID : req.user._id} )
     .then( cart =>{
-        console.log(cart)
+         
         res.json(cart)
     })
 

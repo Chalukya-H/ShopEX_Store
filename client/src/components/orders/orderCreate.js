@@ -76,7 +76,7 @@ class OrderCreate extends React.Component {
         this.props.dispatch(addProductstoOrder(orders,refresh))
     }
     render(){
-        console.log(this.props.users)
+         
         return (
             <div className ='container-fluid'>
                

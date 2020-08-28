@@ -23,7 +23,7 @@ class TopMenu extends React.Component{
             if(this.props.users.length ) {             
                 clearInterval(refersh)
                 this.setState({role :this.props.users[0].role})
-                console.log(this.props.users[0].role)
+               
             }
         },1000)
     }

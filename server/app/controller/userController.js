@@ -65,7 +65,7 @@ userController.login = (req,res) => {
     })
 
     .catch(err =>{
-        console.log(err,'Login')
+        // console.log(err,'Login')
         res.json(err)
     })
 }

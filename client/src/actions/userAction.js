@@ -100,7 +100,7 @@ export const editUser = (user) => {
 }
 
 export const EditUserInfo = (userData,id,refresh) =>{
-    console.log('Edit',userData,id)
+    // console.log('Edit',userData,id)
     return(dispatch) =>{
         axios.put(`/users/${id}`,userData,{
             headers : {
@@ -109,7 +109,7 @@ export const EditUserInfo = (userData,id,refresh) =>{
         })
 
         .then( response =>{
-            console.log(response.data)
+            // console.log(response.data)
             if(response.data.hasOwnProperty('error') || response.data.hasOwnProperty('errors')) {
                 alert('Customer Data not Updated !')
             } else {

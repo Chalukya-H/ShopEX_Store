@@ -29,7 +29,7 @@ class  TopProductsShow extends React.Component {
  
 
     render() {
-        console.log('Product Type', this.props.products)
+        
         return( 
 
             <ProductDisplay products = {this.state.products}   />

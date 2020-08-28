@@ -15,7 +15,7 @@ export const addProducttoCart = (formdata,redirect)=>{
          }
         axios.put('/products/quantity/update',product)
         .then( response =>{
-            console.log(response.data)
+            // console.log(response.data)
             if(response.data.hasOwnProperty('message')) {
                 alert(response.data.message)
             } else if(response.data.hasOwnProperty('error') ){
