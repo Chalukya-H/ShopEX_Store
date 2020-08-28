@@ -24,14 +24,14 @@ userController.register = (req,res) =>{
             })
 
             .catch(err =>{
-                console.log(err)
+                // console.log(err)
                 res.json(err)
             })
         })
     })
 
     .catch(err =>{
-        console.log(err)
+        // console.log(err)
         res.json(err)
     })
 }
@@ -65,7 +65,7 @@ userController.login = (req,res) => {
     })
 
     .catch(err =>{
-        console.log(err,'Login')
+        // console.log(err,'Login')
         res.json(err)
     })
 }

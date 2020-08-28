@@ -7,17 +7,17 @@ orderController.create = (req,res) =>{
     Order.insertMany(body)   
     
     .then(order =>{
-        console.log(order,'Response')
+        // console.log(order,'Response')
         res.json(order )
     })
     .catch(err =>{
-        console.log(err,'error')
+        // console.log(err,'error')
         res.json(err)
     })
 }
 
 orderController.list =(req,res) =>{
-    console.log(req.user)
+    // console.log(req.user)
     if(req.user.role === 'Admin'){
         Order.find()
         .then( order =>{
