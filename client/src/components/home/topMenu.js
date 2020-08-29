@@ -45,26 +45,24 @@ class TopMenu extends React.Component{
         return (
             <div>
               <div>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">                 
                     <a className="navbar-brand" href="/"> <img src = {logo} alt ='' style ={{height:'80px'}}/></a>
-                    {/* <button className="navbar-toggler" type="button" data-toggle="collapse" 
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
-                    </button> */}
-    
-                    <div className="collapse navbar-collapse " id="navbarSupportedContent">     
-                        <div className="input-group mt-2 ml-5  w-50  justify-content-center" >
-                            <input className="form-control " type="text" 
-                                placeholder="Search by product name" aria-label="Search" value ={this.state.searchText}
-                                onChange = {this.handleSearch}/>
-                            <div className="input-group-append">
-                                <button className="btn btn-md btn-outline-warning " onClick = {this.handleSubmitSearch} > Search </button>
-                         
-                            </div>
+                    </button>
+
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo02">                    
+                        <div className="justify-content-center" style={{width: '100%'}}>
+                        <form className="form-inline mr-auto" style= {{textAlign: "center",display: "inherit"}}>
+                            <input className="form-control mr-sm-2" type="search" placeholder="Search by product name" aria-label="Search"
+                                value ={this.state.searchText}
+                                    onChange = {this.handleSearch}/>
+                            <button className="btn btn-md btn-outline-warning my-2 my-sm-0" 
+                                type="submit" onClick = {this.handleSubmitSearch} >Search</button>
+                            </form>
                         </div>
-    
-                        <ul className="navbar-nav  ml-5" >
+                        <ul className="navbar-nav  ml-auto" >
                             {
                                 localStorage.getItem('token') ? 
                                     <div className ='navbar-nav '>                                      
@@ -109,7 +107,7 @@ class TopMenu extends React.Component{
                                        
                                 </div>
                                 :
-                                <div className ='navbar-nav float-right'>
+                                <div className ='navbar-nav'>
                                     <li className="nav-item active">
                                         <Link to ='/login' className ='nav-link navbar-brand'  > Signin </Link>
                                     </li>
