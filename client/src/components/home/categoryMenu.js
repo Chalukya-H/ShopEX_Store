@@ -10,14 +10,13 @@ class CategoryMenu extends React.Component {
     render() {
         return(
             <div className = 'collapse navbar-collapse'>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
+                <ul class="navbar-nav mr-auto">                    
                         {
                             this.props.categories ?
                                 this.props.categories.map((category,i) =>{
                                 return (
                                     // //className="dropdown mr-2"
-                                    <div key ={i+1}> 
+                                    <li class="nav-item dropdown" key ={i+1}>
                                          <a class="nav-link dropdown-toggle" href="#" 
                                             id="navbarDropdown" role="button" data-toggle="dropdown" 
                                                 aria-haspopup="true" aria-expanded="false">
@@ -35,11 +34,10 @@ class CategoryMenu extends React.Component {
                                                     })
                                                 } 
                                             </div>                      
-                                    </div> )
+                                    </li> )
                                 })
                             : ''
-                        } 
-                    </li>
+                        }  
                 </ul>
                 
                
