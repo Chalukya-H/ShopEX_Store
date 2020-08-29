@@ -21,3 +21,26 @@ ul.a {
 .bg-dark {
   background-color: black!important;
 }
+
+
+@include media-breakpoint-up(xs) {
+  .input-width {
+    width:100%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .input-width {
+    width:100%;
+  }
+}
+
+@include media-breakpoint-up(md) { 
+  .input-width {
+  width:100%;
+}
+}
+
+.input-width {
+  width:50%;
+}
