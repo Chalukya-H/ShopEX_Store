@@ -22,7 +22,9 @@ function Footer () {
 
                 <ul className="list-unstyled">
                   <li>
-                    <i className='fas fa-envelope' style={{fontSize:'16px'}}> Chalukya001@gmail.com</i>
+                  <span className='fas fa-envelope' style={{fontSize:'16px'}}>  </span> 
+                  <a href = "mailto:Chalukya001@gmail.com" className = 'text-primary bg-dark'
+                        style={{fontSize:'16px' }} >     Chalukya001@gmail.com </a> 
                   </li>
                
                   <li>
