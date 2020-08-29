@@ -31,7 +31,7 @@ ul.a {
 
 @include media-breakpoint-up(sm) {
   .input-width {
-    width:100%;
+    width:50%;
   }
 }
 
@@ -44,8 +44,8 @@ ul.a {
 
 @include media-breakpoint-up(md) { 
   .input-width {
-  width:100%;
-}
+    width:50%;
+  }
 }
 /* 
 @media (width : 100%)  {
