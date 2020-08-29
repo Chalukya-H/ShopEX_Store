@@ -41,6 +41,12 @@ ul.a {
 }
 }
 
+@media (width : 100%)  {
+  .input-width{
+    width: auto;
+  }
+}
+  
 .input-width {
   width:50%;
 }
