@@ -9,7 +9,7 @@ class CategoryMenu extends React.Component {
     
     render() {
         return(
-            <nav class="navbar navbar-expand-lg navbar-dark" style = {{backgroundColor: '#ffffff'}}  >
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div className = 'headerconcept' style = {{width: '100%'}} >
                     <ul class="navbar-nav mr-auto">                    
                             {
@@ -20,7 +20,7 @@ class CategoryMenu extends React.Component {
                                         <li class="nav-item dropdown" key ={i+1}>
                                             <a class="nav-link dropdown-toggle" href="#" 
                                                 id="navbarDropdown" role="button" data-toggle="dropdown" 
-                                                    aria-haspopup="true" aria-expanded="false">
+                                                    aria-haspopup="true" aria-expanded="false" style = {{color:'black'}}>
                                                             {category.mainType}
                                                                 </a>
                                                 {/* <button type="button" className="btn  dropdown-toggle" data-toggle="dropdown" 
