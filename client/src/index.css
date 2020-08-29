@@ -38,6 +38,13 @@ ul.a {
   }
 }
 
+
+@include media-breakpoint-up(xl) {
+  .input-width {
+    width:50px;
+  }
+}
+
 @include media-breakpoint-up(md) { 
   .input-width {
   width:100%;
