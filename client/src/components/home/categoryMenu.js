@@ -9,7 +9,7 @@ class CategoryMenu extends React.Component {
     
     render() {
         return(
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark" style = {{backgroundColor: '#ffffff'}}  >
                 <div className = 'headerconcept' style = {{width: '100%'}} >
                     <ul class="navbar-nav mr-auto">                    
                             {

@@ -45,7 +45,7 @@ class TopMenu extends React.Component{
         return (
             <div>
               <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">                 
+                <nav className="navbar navbar-expand-lg navbar-dark " style = {{backgroundColor:'#000000'}}>                 
                     <a className="navbar-brand" href="/"> <img src = {logo} alt ='' style ={{height:'80px'}}/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@ class TopMenu extends React.Component{
                         <div className="justify-content-center" style={{width: '100%'}}>
                         <form className="form-inline mr-auto" style= {{textAlign: "center",display: "inherit"}}>
                             <input className="form-control mr-sm-2" type="search" placeholder="Search by product name" aria-label="Search"
-                                value ={this.state.searchText}
+                                value ={this.state.searchText} style ={{width:'50%'}}
                                     onChange = {this.handleSearch}/>
                             <button className="btn btn-md btn-outline-warning my-2 my-sm-0" 
                                 type="submit" onClick = {this.handleSubmitSearch} >Search</button>
