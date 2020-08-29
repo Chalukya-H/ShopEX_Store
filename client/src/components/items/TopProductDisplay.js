@@ -65,7 +65,7 @@ function ProductDisplay(props) {
                                         <Card.Img variant="top" src= {product.mainImage}
                                             style ={{height:'200px',width:'50%',marginLeft: 'auto',  marginRight: 'auto'}}/>
                                         <Card.Body>
-                                            <Card.Title>{product.name}</Card.Title>
+                                            <Card.Title style = {{fontSize:'18px'}}>{product.name}</Card.Title>
                                             <Card.Text>
                                                 <span className=" fa fa-rupee" id="basic-addon1"></span> {product.price}
                                             </Card.Text>
