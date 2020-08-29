@@ -22,20 +22,21 @@ function Footer () {
 
                 <ul className="list-unstyled">
                   <li>
-                  <span className='fas fa-envelope' style={{fontSize:'16px'}}>  </span> 
-                  <a href = "mailto:Chalukya001@gmail.com" className = 'text-primary bg-dark'
-                        style={{fontSize:'16px' }} >     Chalukya001@gmail.com </a> 
+                  <span className='fas fa-envelope' style={{fontSize:'16px'}}>  </span> &nbsp;&nbsp;
+                  <a href = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=Chalukya001@gmail.com" 
+                    target = '_blank' className = 'text-primary bg-dark'
+                        style={{fontSize:'16px' }} >Chalukya001@gmail.com    </a> 
                   </li>
                
                   <li>
-                    <span className = 'fa fa-git-square'  style={{fontSize:'16px'}}>  </span> 
+                    <span className = 'fa fa-git-square'  style={{fontSize:'16px'}}>  </span> &nbsp;&nbsp;
                     <a href="https://github.com/Chalukya-H" target="_blank"  className = 'text-primary bg-dark'
-                        style={{fontSize:'16px' }}> Chalukya-H</a>
+                        style={{fontSize:'16px' }}>Chalukya-H</a>
                   </li>
                   <li>
-                  <span className = 'fa fa-linkedin-square '  style={{fontSize:'16px'}}>  </span> 
+                  <span className = 'fa fa-linkedin-square '  style={{fontSize:'16px'}}>  </span> &nbsp;&nbsp;
                   <a href="https://www.linkedin.com/in/chalukya-h-77a0a8105/" target="_blank" 
-                        className = 'text-primary bg-dark' style={{fontSize:'16px'  }}> Chalukya-H</a>
+                        className = 'text-primary bg-dark' style={{fontSize:'16px'  }}>Chalukya-H</a>
                   </li>
                 </ul> 
               </div>
