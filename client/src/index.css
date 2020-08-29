@@ -25,13 +25,13 @@ ul.a {
 
 @include media-breakpoint-up(xs) {
   .input-width {
-    width:50%;
+    width:100%;
   } 
 }
 
 @include media-breakpoint-up(sm) {
   .input-width {
-    width:50%;
+    width:100%;
   }
 }
 
@@ -44,7 +44,7 @@ ul.a {
 
 @include media-breakpoint-up(md) { 
   .input-width {
-    width:50%;
+    width:100%;
   }
 }
 /* 
@@ -54,6 +54,6 @@ ul.a {
   }
 } */
 
-#searchbar {
+/* #searchbar {
   width:50%;
-} 
+}  */
