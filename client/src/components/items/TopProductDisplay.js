@@ -43,7 +43,7 @@ function ProductDisplay(props) {
         <div>
           {
               props.products.length ?
-              <div className ='container-fluid mt-3 ml-2'>
+              <div className ='container-fluid mt-3'>
                    
                     <div className="row justify-content-between">
                         <div className="col-5">

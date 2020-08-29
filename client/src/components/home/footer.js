@@ -3,7 +3,7 @@ import React from 'react'
 function Footer () {
     return( 
       <footer className="page-footer font-small mt-5 bg-dark text-light ">  
-        <div className="container-fluid ml-3 text-center text-md-left"> 
+        <div className="container-fluid   text-center text-md-left"> 
           <div className="row">
             <div className="col-md-6 md-0 mt-3">
               <p className = 'text-warning' style ={{ fontSize:'18px'  }}>ShopEx</p>
