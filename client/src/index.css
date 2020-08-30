@@ -21,32 +21,7 @@ ul.a {
 .bg-dark {
   background-color: black!important;
 }
-
-
-@include media-breakpoint-up(xs) {
-  .input-width {
-    width:100%;
-  } 
-}
-
-@include media-breakpoint-up(sm) {
-  .input-width {
-    width:100%;
-  }
-}
-
-
-@include media-breakpoint-up(xl) {
-  .input-width {
-    width:50%;
-  }
-}
-
-@include media-breakpoint-up(md) { 
-  .input-width {
-    width:100%;
-  }
-}
+ 
 /* 
 @media (width : 100%)  {
   #searchbar{
@@ -61,4 +36,8 @@ ul.a {
 
 .input-width{
   width: 100%;
+}
+
+.header__search{
+  display: flex;
 }

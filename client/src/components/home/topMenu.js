@@ -53,13 +53,13 @@ class TopMenu extends React.Component{
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">                    
-                        <div className="justify-content-center" style={{width: '100%'}}>
-                        <form className="form-inline mr-auto" style= {{textAlign: "center",display: "inherit"}}>
-                            <input className="form-control input-width mr-sm-2"  id ='searchbar'
-                                type="search" placeholder="Search by product name" aria-label="Search"  value ={this.state.searchText}  
-                                    onChange = {this.handleSearch} />
-                            <button className="btn btn-md btn-outline-warning my-2 my-sm-0" 
-                                type="submit" onClick = {this.handleSubmitSearch} >Search</button>
+                        <div className="header__search justify-content-center" style={{width: '100%'}}>
+                            <form className="form-inline mr-auto" style= {{textAlign: "center",display: "inherit"}}>
+                                <input className="form-control input-width mr-sm-2"  id ='searchbar'
+                                    type="search" placeholder="Search by product name" aria-label="Search"  value ={this.state.searchText}  
+                                        onChange = {this.handleSearch} />
+                                <button className="btn btn-md btn-outline-warning my-2 my-sm-0" 
+                                    type="submit" onClick = {this.handleSubmitSearch} >Search</button>
                             </form>
                         </div>
                         <ul className="navbar-nav  ml-auto" >
