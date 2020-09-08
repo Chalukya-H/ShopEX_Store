@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import {getCategories} from '../../actions/categoryAction'
 import {getTopProducts} from '../../actions/productAction'
 import {connect} from 'react-redux'
+import './products.css'
 
 
 class  TopProductsShow extends React.Component {
