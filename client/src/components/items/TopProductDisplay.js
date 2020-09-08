@@ -59,9 +59,9 @@ function ProductDisplay(props) {
                     {
                          props.products.map((product,i) =>{                                
                             return (
-                                <Link className = 'col-md-3 mt-2' to={`/products/${product._id}`} 
+                                <Link className = 'product col-md-3 mt-2' to={`/products/${product._id}`} 
                                     style ={{color:'black',textDecoration:'none'}} key={i+1}>                                             
-                                    <Card className = 'border-none'  style ={{height:'100%'}} >
+                                    <Card className = 'border-none '  style ={{height:'100%'}} >
                                         <Card.Img variant="top" src= {product.mainImage}
                                             style ={{height:'200px',width:'50%',marginLeft: 'auto',  marginRight: 'auto'}}/>
                                         <Card.Body>
